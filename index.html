@@ -7,12 +7,14 @@
   </head>
   <body>
     <h1>Spellista</h1>
-    <form>
+    <form id="playlistForm">
       <input type="text" id="genre" placeholder="Genre" required />
       <input type="text" id="artist" placeholder="Artist" required />
       <input type="text" id="song" placeholder="Song" required />
       <button type="submit">Lägg till</button>
     </form>
+    <div id="playlistContainer"></div>
+
     <script src="models/playlistModel.js"></script>
     <script src="views/playlistView.js"></script>
     <script src="controllers/playlistController.js"></script>
