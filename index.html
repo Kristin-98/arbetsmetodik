@@ -4,16 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Playlist</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Spellista</h1>
-    <form id="playlistForm">
-      <input type="text" id="genre" placeholder="Genre" required />
-      <input type="text" id="artist" placeholder="Artist" required />
-      <input type="text" id="song" placeholder="Song" required />
-      <button type="submit">Lägg till</button>
-    </form>
-    <div id="playlistContainer"></div>
+    <main>
+      <h1>Spellista</h1>
+      <form id="playlistForm">
+        <input type="text" id="genre" placeholder="Genre" required />
+        <input type="text" id="artist" placeholder="Artist" required />
+        <input type="text" id="song" placeholder="Låt" required />
+        <button type="submit">Lägg till</button>
+      </form>
+      <div id="playlistContainer"></div>
+    </main>
 
     <script src="models/playlistModel.js"></script>
     <script src="views/playlistView.js"></script>
