@@ -6,8 +6,15 @@
     <title>Playlist</title>
   </head>
   <body>
-    <main>
-      <h1>Playlist</h1>
-    </main>
+    <h1>Spellista</h1>
+    <form>
+      <input type="text" id="genre" placeholder="Genre" required />
+      <input type="text" id="artist" placeholder="Artist" required />
+      <input type="text" id="song" placeholder="Song" required />
+      <button type="submit">Lägg till</button>
+    </form>
+    <script src="models/playlistModel.js"></script>
+    <script src="views/playlistView.js"></script>
+    <script src="controllers/playlistController.js"></script>
   </body>
 </html>
