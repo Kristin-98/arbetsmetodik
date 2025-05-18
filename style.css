@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 252, 240);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 main {
@@ -8,4 +9,14 @@ main {
   display: flex;
   flex-direction: column;
   color: rgb(53, 52, 52);
+}
+
+#playlistContainer {
+  margin-top: 20px;
+  width: 80%;
+  max-width: 600px;
+  background-color: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
